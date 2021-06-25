@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const EntrySchema = new Schema({
+const journalEntrySchema = new Schema({
     title: {
         type: String,
         required: true,
@@ -14,6 +14,6 @@ const EntrySchema = new Schema({
     },
 }, {timestamps: true});
 
-const Entry = mongoose.model('Entry', EntrySchema);
+const Entry = mongoose.model('Entry', journalEntrySchema);
 
 module.exports = Entry;

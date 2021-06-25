@@ -1,3 +1,3 @@
 module.exports = {
-    entries: require('./entriesRoutes'),
+    entries: require('./journalEntriesRoutes'),
 };

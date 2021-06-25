@@ -1,3 +1,3 @@
 module.exports = {
-    entries: require('./entriesController'),
+    journalEntries: require('./journalEntriesController'),
 };
